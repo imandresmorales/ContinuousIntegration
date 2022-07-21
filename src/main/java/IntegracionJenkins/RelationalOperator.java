@@ -19,8 +19,10 @@ public class RelationalOperator {
      * @return true if num1 is less than num2, false otherwise
      */
     public boolean isLess(int num1, int num2) {
-        return num1 <= num2;
+        return num1 < num2;
     }
+    
+    
 
     
     public void goodWidth(final int object_width, final int min_width, final int max_width){
